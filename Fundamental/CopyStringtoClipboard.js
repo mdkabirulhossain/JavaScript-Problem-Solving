@@ -15,3 +15,5 @@ const copy_to_Clipboard = str => {
       document.getSelection().addRange(selected);
     }
   };
+
+  copy_to_Clipboard("Hello world");
